@@ -1,0 +1,15 @@
+{
+    "name": "file-share-worker",
+    "version": "1.0.0",
+    "description": "File sharing system using Cloudflare Workers",
+    "main": "src/index.js",
+    "type": "module",  
+    "scripts": {
+      "dev": "wrangler dev",
+      "deploy": "wrangler deploy"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "wrangler": "^3.0.0"
+    }
+  }

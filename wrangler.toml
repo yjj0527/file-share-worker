@@ -1,0 +1,12 @@
+name = "file-share-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[r2_buckets]]
+binding = "FILE_BUCKET"
+bucket_name = "file-share"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "file-share"
+database_id = "0abf2e8e-fedc-48df-9ca0-55466c40c132"    # Will be set during deployment
